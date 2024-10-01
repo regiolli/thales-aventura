@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Carros 2</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/Cars-2.png" alt="">
+            <p>Seja bem vindo à Aventura Carros 2, Vamos começar?</p>
+            <button class="btn-proximo" data-proximo="1">Iniciar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/maxresdefault.jpg" alt="">
+            <p>Depois de vencer a Copa Pistão pela quarta vez, Seu melhor amigo Mcqueen volta a Radiator Springs. Enquanto vê o anúncio do primeiro Grand Prix Mundial patrocinado pelo ex-magnata do petróleo Miles Eixo de Roda para promover seu novo combustível renovável, Allinol. Você está pronto?</p>
+            <button class="btn-proximo" data-proximo="2">Sim, vamos nessa!</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/toquio corrida 1.jpg" alt="">
+            <p>A primeira corrida é no Japão, na cidade de Tóquio. Vamos correr?</p>
+            <button class="btn-proximo" data-proximo="3">Vamos correr!</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/silkyagedhadrosaurus-max-1mb.gif" alt="">
+            <p>A corrida está indo bem, Mcqueen está ganhando cada vez mais posições. Mas algo estranho acontece...</p>
+            <button class="btn-proximo" data-proximo="7">O que aconteceu?</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/miguel acidente.jpg" alt="">
+            <p>O corredor Espanhol Miguel Camino sofreu uma explosão, estranho para um carro que nunca apresentou esse problema...</p>
+            <button class="btn-proximo" data-proximo="9">Continuar vendo a corrida</button>
+            <button class="btn-proximo" data-proximo="10">investigar mais a fundo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/toquio acidentes.jpg" alt="">
+            <p>Mais dois carros acabam sofrendo explosões, levantando suspeitas em relação ao combustível Alinol</p>
+            <button class="btn-proximo" data-proximo="10">Acompanhar a investigação</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/finn.jpg" alt="">
+            <p>Finn Mcmissil descobre que um grupo de carros mal intencionados está sabotando as corridas, causando aicdentes.</p>
+            <button class="btn-proximo" data-proximo="12">Continuar investigando</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/Holley_03.jpg" alt="">
+            <p>Uma estranha aglomeração de carros "tranqueiras" ocorre na corrida, porém eles estão indo até o Mate! VOCÊ PRECISA AJUDA-LO!</p>
+            <button class="btn-proximo" data-proximo="13">Vamos ao resgate!</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/tumblr_m2pgbiylWK1ru1ulwo1_1280.jpg" alt="">
+            <p>Agora com Mate a salvo, precisamos continuar a investigação antes da próxima corrida na Itália.</p>
+            <button class="btn-proximo" data-proximo="15">Seguir para  o próximo cápitulo</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="img/inform.jpg" alt="">
+            <p>No mercado clandestino de Paris, um informante diz que o responsavel pelos acidentes utiliza peças de carros antigos em si mesmo, diminuindo a lista de suspeitos.</p>
+            <button class="btn-proximo" data-proximo="16">O que mais descobrimos?</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <img src="img/inform.jpg" alt="">
+            <p>O informante também revela que uma reunião de "tranqueiras" ira ocorrer no mesmo local da próxima corrida, em Porto Corsa Itália.</p>
+            <button class="btn-proximo" data-proximo="17">Ir para a corrida</button>
+            <button class="btn-proximo" data-proximo="18">Continuar a investigação</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <img src="img/italia inicio.jpg" alt="">
+            <p>Estamos na belíssima Itália. Vamos correr!</p>
+            <button class="btn-proximo" data-proximo="19">Começar a corrida</button>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <img src="img/corrida italia.png" alt="">
+            <p>É dada a largada! Precisamos nos certificar que não haverão sabotagens na corrida.</p>
+            <button class="btn-proximo" data-proximo="18">Retornar para a investigação</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+
+            <p>Mate ira se infiltrar na reunião de "tranqueiras" para descobrirmos quem é o chefe da operação.</p>
+            <button class="btn-proximo" data-proximo="20">Ir para a reunião</button>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <img src="img/motor.jpg" alt="">
+            <p>O líder misterioso revela que os tranqueiras são donos de uma companhia de petróleo que desejam induzir os carros a pensarem que o cosbustivel alternativo é prejudicial, aumentando assim seus própios negócios.</p>
+            <button class="btn-proximo" data-proximo="21">Continuar na reunião</button>
+            <button class="btn-proximo" data-proximo="22">Ver como está a corrida</button>
+        </div>
+
+        <div class="passo" id="passo-22">
+            <img src="img/corrida italia 2.gif" alt="">
+            <p>A corrida segue acirrada, e sem acidentes.</p>
+            <button class="btn-proximo" data-proximo="21">Retornar a reunião</button>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <img src="img/italia tranqueira.jpg" alt="">
+            <p>Os tranqueiras começam a causar acidentes novamente!</p>
+            <button class="btn-proximo" data-proximo="23">Ver o acidente</button>
+        </div>
+
+        <div class="passo" id="passo-23">
+            <img src="img/italia acidente.gif" alt="">
+            <p>Os acidentes agora são mais graves, quase todos os corredores são atingidos. Precisamos dete-los!</p>
+            <button class="btn-proximo" data-proximo="24">Deter os tranqueiras</button>
+        </div>
+
+        <div class="passo" id="passo-24">
+
+            <p>Tarde demais, eles preparam armadilhas e capturaram todos os espiões.</p>
+            <button class="btn-proximo" data-proximo="25">Seguir para póximo capitulo</button>
+            <button class="btn-proximo" data-proximo="26">Ver o resultado da corrida</button>
+        </div>
+
+        <div class="passo" id="passo-26">
+
+            <p>Mcqueen vence a corrida por uma pequena vantagem, e após isso percebe o grande acidente causado na corrida, o que preocupa todos sobre o Allinol causar outro acidente na próxima corrida.</p>
+            <button class="btn-proximo" data-proximo="25">Seguir para póximo capitulo</button>
+        </div>
+
+        <div class="passo" id="passo-25">
+            <img src="img/fundo londres.png" alt="">
+            <p>Estamos em Londres, sede da ultima corrida do Grand Prix Mundial.</p>
+            <button class="btn-proximo" data-proximo="27">Seguir para póximo capitulo</button>
+        </div>
+
+        <div class="passo" id="passo-27">
+            <img src="img/big ben.jpg" alt="">
+            <p>Os Espiões estão presos no Big Bentley, e os tranqueiras pretendem continuar o ciclo de acidentes, dessa vez atacando Mcqueen.</p>
+            <button class="btn-proximo" data-proximo="28">Ver como está Mcqueen</button>
+            <button class="btn-proximo" data-proximo="29">Tentar escapar</button>
+        </div>
+
+        <div class="passo" id="passo-28">
+            <p>Mesmo abalado com os acidentes, Mcqueen está pronto para iniciar a ultima corrida</p>
+            <button class="btn-proximo" data-proximo="30">Iniciar a corrida</button>
+        </div>
+
+        <div class="passo" id="passo-30">
+            <img src="img/tumblr_pbyrupV36w1u2x68ro7_400.gif" alt="">
+            <p>E pela ultima vez, é dada a largada!</p>
+            <button class="btn-proximo" data-proximo="29">Ver como estão os espiões</button>
+        </div>
+
+        <div class="passo" id="passo-29">
+            <img src="img/big ben 2.jpg" alt="">
+            <p>Precisamos escapar das cordas para salvar Mcqueen</p>
+            <button class="btn-proximo" data-proximo="31">Rasgar as cordas</button>
+        </div>
+
+        <div class="passo" id="passo-31">
+            <img src="img/Mater_07.jpg" alt="">
+            <p>Muito bem! Você conseguiu escapar, agora vá atrás de Mcqueen!</p>
+            <button class="btn-proximo" data-proximo="32">Ir ao resgate</button>
+        </div>
+
+        <div class="passo" id="passo-32">
+            <p>Mcqueen está a salvo, mas ainda precisamos descobrir quem é o responsável pela conspiração na corrida</p>
+            <button class="btn-proximo" data-proximo="33">Quais são os suspeitos</button>
+        </div>
+
+        <div class="passo" id="passo-33">
+            <p>Temos dois suspeitos, o mais óbvio é o Professor Z que foi visto com os tranqueiras, o outro suspeito é Miles Eixoderoda que pode estar conspirando contra sua própia competição.</p>
+            <button class="btn-proximo" data-proximo="34">Interrogar o Professor Z</button>
+            <button class="btn-proximo" data-proximo="35">Interrogar Eixoderoda</button>
+        </div>
+
+        <div class="passo" id="passo-34">
+            <img src="img/interroga 1.jpg" alt="">
+            <p>Professor Z está envolvido, mas não é o chefe da operação.</p>
+            <button class="btn-proximo" data-proximo="35">Interrogar Eixoderoda</button>
+        </div>
+
+        <div class="passo" id="passo-35">
+            <img src="img/eixo.png" alt="">
+            <p>Agora precisamos provar que Miles é o cabeça da operação criminosa</p>
+            <button class="btn-proximo" data-proximo="36">Interroga-lo usando nossas provas</button>
+        </div>
+
+        <div class="passo" id="passo-36">
+            <img src="img/interroga.jpg" alt="">
+            <p>Miles vem mentindo esse tempo todo, pois é um dos tranqueiras, ele criou o Allinol e causou acidentes para manchar a imagem do combústivel alternativo, aumentando a demanada pelo combústivel fóssil e trazendo mais lucro para os tranqueiras.</p>
+            <button class="btn-proximo" data-proximo="37">Continuar a interrogação</button>
+        </div>
+
+        <div class="passo" id="passo-37">
+            <img src="img/motor.jpg" alt="">
+            <p>Mas para provarmos tudo precisamos mostrar que ele tem o mesmo motor do tranqueira que revelou os planos na itália.</p>
+            <button class="btn-proximo" data-proximo="38">Revelar o motor</button>
+        </div>
+
+        <div class="passo" id="passo-38">
+            <img src="img/motor 2.jpg" alt="">
+            <p>É ele! Você conseguiu provar que ele é o líder criminoso.</p>
+            <button class="btn-proximo" data-proximo="39">Avançar</button>
+        </div>
+
+        <div class="passo" id="passo-39">
+            <img src="img/final.gif" alt="">
+            <p>Agora todos estão a salvo, podemos correr de forma segura mais uma vez!</p>
+            <button class="btn-proximo" data-proximo="40">Avançar</button>
+        </div>
+
+        <div class="passo" id="passo-40">
+            <p>Obrigado por nos acompanhar nessa aventura, nos vemos em uma próxima!</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
